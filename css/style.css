@@ -23,10 +23,7 @@ nav ul a{
 }
 .container-welcome{
     display: flex;
-}
-.section-about-info{
-    margin-left: 140px;
-
+    justify-content: space-between;
 }
 .section-about__image img{
     max-width: 384.13px;
