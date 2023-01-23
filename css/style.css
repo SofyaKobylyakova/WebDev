@@ -1,10 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+html{
+    font-family: 'Roboto', sans-serif;
+}
 .container{
     max-width: 1440px;
     margin: 0 auto;
 }
 .container-header{
     margin-top: 57px;
-    margin-bottom: 402px;
+    margin-bottom: 144px;
     display: flex;
     justify-content: space-between;
 }
@@ -16,6 +20,7 @@ nav ul a{
     list-style: none;
     margin-left: 42px;
     font-size: 16px;
+    line-height: 26px;
     color: black;
 }
 .nav__link{
@@ -23,7 +28,7 @@ nav ul a{
 }
 .container-welcome{
     display: flex;
-    justify-content: space-between;
+    align-items: center;
 }
 .section-about__image img{
     max-width: 384.13px;
@@ -31,14 +36,23 @@ nav ul a{
 }
 .section__title{
     font-size: 48px;
+    font-weight: 500;
+    line-height: 79px;
+}
+.section-about-info{
+    margin-left: 140px;
 }
 .section-about-info p{
     font-size: 16px;
     color: #727272;
     margin: 60px 0;
+    line-height: 26px;
     max-width: 580.73px;
 }
 button{
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.1em;
     min-width: 241.85px;
     min-height: 65px;
     color: white;
