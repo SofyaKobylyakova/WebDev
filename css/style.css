@@ -29,6 +29,7 @@ nav ul a{
 .container-welcome{
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 .section-about__image img{
     max-width: 384.13px;
